@@ -1,0 +1,20 @@
+######################################## Application ########################################################
+
+appName: front-helm
+namespace: helm
+timestamp: a_random_value
+
+########################################## configmap #########################################################
+
+configmap:
+  name: front-helm-configmap
+  checksum/config:
+                 ##########################@backend########################################
+
+  #userManagementUrl: http://192.168.162.104:30852/back/helm
+  #mapServiceUrl: http://192.168.162.104:31346
+
+############################################image############################################################
+image:
+  repository: firaschikhaoui/frontservice
+  tag: v1.2

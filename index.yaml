@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  front:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-07-05T15:36:07.170746742Z"
+    description: A Helm chart for Kubernetes
+    digest: 00202f9538d0d869dfc3bd7f055c4addfd29b8e152345eb72238a096f0da1cc2
+    name: front
+    type: application
+    urls:
+    - https://chikhaoui-firas99.github.io/helm-front/front-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-07-05T15:36:07.16975061Z"
